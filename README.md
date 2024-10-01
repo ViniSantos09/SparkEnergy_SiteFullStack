@@ -6,7 +6,7 @@
 
 # SparkEnergy
 
-## Grupo 10 - ODS 7: Energia limpa e acessível
+## ODS 7: Energia limpa e acessível
 
 ## Integrantes: <a href="https://github.com/ArthurRFerr">Arthur Rodrigues Ferreira</a>, <a href="https://github.com/BernardoSCavalc">Bernardo Seijas Cavalcante</a>, <a href="https://github.com/gabmarussi">Gabriel Henrique Coelho Marussi</a>, <a href="https://github.com/IsraelRibeiro05">Israel Ribeiro Ramos</a>, <a href="https://github.com/ViniSantos09">Vinicius dos Santos Ribeiro</a>
 
