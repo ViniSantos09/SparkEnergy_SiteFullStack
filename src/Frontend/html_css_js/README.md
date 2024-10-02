@@ -19,8 +19,5 @@
 |   |-- /css         # Arquivos CSS<br>
 |   |-- /js          # Arquivos JavaScript<br>
 |<br>
-|-- .gitignore       # Arquivo de configuração do Git para ignorar certos arquivos<br>
 |-- README.md        # Documentação do projeto<br>
 |-- index.html       # Principal parte do site<br>
-|-- package.json     # Se estiver usando npm ou um gerenciador de pacotes similar<br>
-</pre>
