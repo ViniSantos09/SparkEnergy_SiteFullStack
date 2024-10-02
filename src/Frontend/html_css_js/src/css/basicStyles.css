@@ -1,9 +1,18 @@
 .hole-container {
     height: 70vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-bottom: 10px solid rgb(204, 204, 3);
+}
+
+#sobreNos {
+    background-color: #292930;
+}
+
+#sobreNos h1 {
+    color: #fdd935;
 }
 
 footer {
