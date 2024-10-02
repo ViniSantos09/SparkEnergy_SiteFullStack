@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const NavBarContainer = styled.nav`
     width: 100%;
-    border: solid 2px green;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +17,6 @@ const Logo = styled.h1`
 
 const Menu = styled(Link)`
     margin: 0 1rem;
-    border: solid 2px red;
     cursor: pointer;
     color: #fff;
     text-decoration: none;
