@@ -1,6 +1,7 @@
 # Repositório do Projeto
 
 ## home page -> index.html
+*Este é apenas o layout básico da parte de cada um*
 
 ## 🛠 Estrutura de pastas
 <pre>
