@@ -1,0 +1,16 @@
+.hole-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid rgb(204, 204, 3);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    text-align: center;
+    height: 20vh;
+}
