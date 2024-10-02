@@ -28,7 +28,6 @@ const Menu = styled(Link)`
 `;
 
 const MenuContainer = styled.div`
-    border: solid 2px blue;
     display: flex;
     align-items: center;
     justify-content: center;
