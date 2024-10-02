@@ -56,12 +56,13 @@ function NavBar() {
         <NavBarContainer>
             <Logo>SparkEnergy</Logo>
             <MenuContainer>
-                <Menu to="/">Início</Menu>
-                <Menu to="/noticias">Notícias</Menu>
-                <Menu to="/sobre">Sobre</Menu>
-                <Menu to="/doe">Doe</Menu>
+                <Menu to="/">Home</Menu>
+                <Menu to="/sobreNos">Sobre nós</Menu>
+                <Menu to="/noticias">Serviços</Menu>
+                <Menu to="/sobre">ONGs</Menu>
+                <Menu to="/doe">Tipos de Energia</Menu>
             </MenuContainer>
-                <Button to="/form">Comece Agora</Button>
+                <Button to="/form">SparkConnect</Button>
         </NavBarContainer>
     );
 }
