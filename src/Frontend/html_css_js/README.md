@@ -1,5 +1,7 @@
 # Repositório do Projeto
 
+## home page -> index.html
+
 ## 🛠 Estrutura de pastas
 <pre>
 /raiz-do-projeto<br>
