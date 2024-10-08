@@ -86,38 +86,38 @@
 #slidehorizontal .boxenergia:nth-child(1) {
     background-image: 
     linear-gradient(to bottom, hsla(0, 0%, 0%, 0), #B9C4C9),
-    url(/assets/images/img/solar-box-bg.png);
+    url(../../assets/images/img/solar-box-bg.png);
 }
 
 #slidehorizontal .boxenergia:nth-child(2) {
     background-image: 
     linear-gradient(to bottom, hsla(0, 0%, 0%, 0), #B9C4C9),
-    url(/assets/images/img/hidreletrica-box-bg.jpg);
+    url(../../assets/images/img/hidreletrica-box-bg.jpg);
 }
 #slidehorizontal .boxenergia:nth-child(3) {
     background-image: 
     linear-gradient(to bottom, hsla(0, 0%, 0%, 0), #B9C4C9),
-    url(/assets/images/img/nuclear-box-bg.jpg);
+    url(../../assets/images/img/nuclear-box-bg.jpg);
 }
 #slidehorizontal .boxenergia:nth-child(4) {
     background-image:
     linear-gradient(to bottom, hsla(0, 0%, 0%, 0), #B9C4C9),
-    url(/assets/images/img/eolica-box-bg.png);
+    url(../../assets/images/img/eolica-box-bg.png);
 }
 #slidehorizontal .boxenergia:nth-child(5) {
     background-image:
     linear-gradient(to bottom, hsla(0, 0%, 0%, 0), #B9C4C9),
-    url(/assets/images/img/marinha-box-bg.png);
+    url(../../assets/images/img/marinha-box-bg.png);
 }
 #slidehorizontal .boxenergia:nth-child(6) {
     background-image: 
     linear-gradient(to bottom, hsla(0, 0%, 0%, 0), #B9C4C9),
-    url(/assets/images/img/geotermica-box-bg.jpg);
+    url(../../assets/images/img/geotermica-box-bg.jpg);
 }
 #slidehorizontal .boxenergia:nth-child(7) {
     background-image: 
     linear-gradient(to bottom, hsla(0, 0%, 0%, 0), #B9C4C9),
-    url(/assets/images/img/biomassa-box-bg.png);
+    url(../../assets/images/img/biomassa-box-bg.png);
 }
 #slidehorizontal .boxenergia .botao-pag-rael-boxenergia{
     height: 30px;

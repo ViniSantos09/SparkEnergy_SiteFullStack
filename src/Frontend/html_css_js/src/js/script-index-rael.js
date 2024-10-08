@@ -29,7 +29,7 @@ ScrollTrigger.defaults({
   markers: false,
 });
 gsap.to(sections, {
-  xPercent: -100 * (sections.length - 1),
+  xPercent: -120 * (sections.length - 1),
   ease: "none",
   scrollTrigger: {
     trigger: "#container-slider",

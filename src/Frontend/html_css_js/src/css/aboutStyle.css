@@ -1,5 +1,5 @@
 .about{
-    background: url("/assets/images/about_img/about-bg.jpg") no-repeat left;
+    background: url("../../assets/images/about_img/about-bg.jpg") no-repeat left;
     background-size: 60%;
     background-color: #040403;
     overflow: hidden;

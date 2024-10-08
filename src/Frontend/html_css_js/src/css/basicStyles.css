@@ -4,8 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 10px solid rgb(204, 204, 3);
     border-bottom: 10px solid rgb(204, 204, 3);
     background-color: black;
+    color: white;
 }
 
 footer {
