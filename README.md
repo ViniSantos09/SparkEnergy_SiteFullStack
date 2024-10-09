@@ -32,7 +32,10 @@ May the force be with you!
 -Raiz<br>
 |<br>
 |-->documentos<br>
-  &emsp;|-->antigos<br>
+  &emsp;|-->Entrega 1<br>
+  &emsp;|-->Entrega 2<br>
+  &emsp;|-->Entrega 3<br>
+  &emsp;|-->Entrega 4<br>
   &emsp;|Documentação.docx<br>
 |-->executáveis<br>
   &emsp;|-->HTML<br>
@@ -40,6 +43,8 @@ May the force be with you!
 |-->src<br>
   &emsp;|-->Backend<br>
   &emsp;|-->Frontend<br>
+    &emsp;|-->Html_Css_Js<br>
+    &emsp;|-->React<br>
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
