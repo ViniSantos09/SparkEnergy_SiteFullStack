@@ -2,13 +2,13 @@ import styled from "styled-components"
 
 const OngsContainer = styled.section`
     border: 5px solid red;
-    
+    height: 50vh;    
 `
 
 function Ongs() {
 
     return (
-        <OngsContainer>
+        <OngsContainer id="">
             <h1>Ongs - Part</h1>
         </OngsContainer>
     )
