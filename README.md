@@ -58,6 +58,7 @@ Descreva como instalar todas as dependências para desenvolvimento e como rodar 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://react.dev/learn/start-a-new-react-project">REACT</a>
+-<a href="https://react.dev/learn/start-a-new-react-project">Node.js</a>
 
 ```sh
 npm install node
