@@ -1,0 +1,28 @@
+#quad1{
+    transform: translateY(100%);
+    transition: transform 3s;
+}
+#quad2{
+    transform: translateY(90%);
+    transition: transform 3s;
+}
+#quad3{
+    transform: translateY(70%);
+    transition: transform 3s;
+}
+#quad4{
+    transform: translateY(50%);
+    transition: transform 3s;
+}
+#quad5{
+    transform: translateX(-30%);
+    transition: transform 3s;
+}
+#quad6{
+    transform: translateY(30%);
+    transition: transform 3s;
+}
+#quad7{
+    transform: translatex(30%);
+    transition: transform 3s;
+}
