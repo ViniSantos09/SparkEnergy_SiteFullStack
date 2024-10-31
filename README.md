@@ -20,12 +20,9 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+A SparkEnergy visa promover o acesso universal, confiável e acessível à energia, ouvindo as comunidades sobre suas dificuldades. Alinhando-se ao Objetivo 7.1 da ODS 7 da ONU: 'Garantir o acesso universal, confiável, moderno e a preços acessíveis a serviços de energia. Na SparkEnergy, a conexão vai além da internet, buscando unir pessoas, ideias e soluções para problemas de acesso à energia. O espaço incentiva a troca de experiências, denúncias e sugestões, criando uma rede de apoio entre moradores de diferentes bairros e ajudando a mapear a realidade energética das comunidades.
+
+A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.
 
 ## 🛠 Estrutura de pastas
 
