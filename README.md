@@ -10,7 +10,7 @@
 
 ## Integrantes: <a href="https://github.com/ArthurRFerr">Arthur Rodrigues Ferreira</a>, <a href="https://github.com/BernardoSCavalc">Bernardo Seijas Cavalcante</a>, <a href="https://github.com/gabmarussi">Gabriel Henrique Coelho Marussi</a>, <a href="https://github.com/IsraelRibeiro05">Israel Ribeiro Ramos</a>, <a href="https://github.com/ViniSantos09">Vinicius dos Santos Ribeiro</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/dolemes/">David de Oliveira Lemes</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/dolemes/">David de Oliveira Lemes</a>, <a href="https://www.linkedin.com/in/dolemes/">Francisco de Souza Escobaro</a>, <a href="https://www.linkedin.com/in/dolemes/">Katia Milani Lara Bossi</a>, <a href="https://www.linkedin.com/in/dolemes/">Renata Muniz do Nascimento</a>, <a href="https://www.linkedin.com/in/dolemes/">Victor Rosetti Quiroz</a>
 
 ## Descrição
 
