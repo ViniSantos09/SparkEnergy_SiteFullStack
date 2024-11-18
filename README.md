@@ -137,6 +137,6 @@ Aqui estão todas as referências usadas no projeto.
 
 ### Bibliotecas
 
-1. <p><a href="https://pt-br.react.dev/reference/react">React</a><br/>, documentação do React usada para auxíliar no sintaxe e inspiração de códigos.</p> 
-2. <p><a href="https://openai.com/index/chatgpt/">ChatGPT</a><br/>, inteligência artificial usada para auxíliar na geração de códigos e assistência técnica.</p>
+1. <a><a href="https://pt-br.react.dev/reference/react">React</a><br/>, documentação do React usada para auxíliar no sintaxe e inspiração de códigos.</a> 
+2. <a><a href="https://openai.com/index/chatgpt/">ChatGPT</a><br/>, inteligência artificial usada para auxíliar na geração de códigos e assistência técnica.</a>
 
