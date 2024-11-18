@@ -24,9 +24,10 @@ A SparkEnergy visa promover o acesso universal, confiável e acessível à energ
 
 A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma Logo" width="20" height="20" style="vertical-align: middle; margin-right: 10px;"> Figma
+## <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma Logo" width="25" height="25" style="vertical-align: middle; margin-right: 10px;"> Figma
 
-Esse é um <a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy">protópico no Figma</a> em que se baseamos para seguir o desenvolvimento.
+- <a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy">Protópico do Projeto</a>
+<br>
 
 ## 🛠 Estrutura de pastas
 
@@ -47,6 +48,7 @@ Esse é um <a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---Spa
     &emsp;|-->Html_Css_Js<br>
     &emsp;|-->React<br>
 |readme.md<br>
+<br>
 
 ## 🛠 Instalação
 
@@ -80,6 +82,7 @@ npm start
 ## 📋 Licença/License
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-2-MCC2/Projeto10">SparkEnergy</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2024-2-MCC2/Projeto10">FECAP - Arthur Rodrigues Ferreira, Bernardo Seijas Cavalcante, Gabriel Henrique Coelho Marussi, Israel Ribeiro Ramos, Vinicius dos Santos Ribeiro</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
+<br>
 
 ## 🎓 Referências
 
