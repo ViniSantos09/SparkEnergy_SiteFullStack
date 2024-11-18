@@ -10,7 +10,7 @@
 
 ## Integrantes: <a href="https://github.com/ArthurRFerr">Arthur Rodrigues Ferreira</a>, <a href="https://github.com/BernardoSCavalc">Bernardo Seijas Cavalcante</a>, <a href="https://github.com/gabmarussi">Gabriel Henrique Coelho Marussi</a>, <a href="https://github.com/IsraelRibeiro05">Israel Ribeiro Ramos</a>, <a href="https://github.com/ViniSantos09">Vinicius dos Santos Ribeiro</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/dolemes/">David de Oliveira Lemes</a>, <a href="https://www.linkedin.com/in/dolemes/">Francisco de Souza Escobaro</a>, <a href="https://www.linkedin.com/in/dolemes/">Katia Milani Lara Bossi</a>, <a href="https://www.linkedin.com/in/dolemes/">Renata Muniz do Nascimento</a>, <a href="https://www.linkedin.com/in/dolemes/">Victor Rosetti Quiroz</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/dolemes/">David de Oliveira Lemes</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco de Souza Escobaro</a>, <a href="https://github.com/2024-2-MCC2/Projeto10">Katia Milani Lara Bossi</a>, <a href="https://github.com/2024-2-MCC2/Projeto10">Renata Muniz do Nascimento</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor Rosetti Quiroz</a>
 
 ## Descrição
 
@@ -48,6 +48,13 @@ A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas po
     &emsp;|-->React<br>
 |readme.md<br>
 
+
+## ![image](https://github.com/user-attachments/assets/02a4ec67-369d-434d-a0bb-0e8a03bc2f4d) Figma 
+
+Aqui segue nosso protópico visual ni Figma que se baseamos para seguir o desenvolvimento:<br/>
+
+<a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy?node-id=0-1&t=pOWPpKwn9hIG4LT4-1">Ver Projeto<a><br/>
+
 ## 🛠 Instalação
 
 <b>HTML:</b>
@@ -57,19 +64,25 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
 Para abrir este projeto você necessita das seguintes ferramentas:
+-<a hred="https://code.visualstudio.com/download"> Visual Studio Code></a><br/>
+-<a href="https://react.dev/learn/start-a-new-react-project"> Node.js</a><br/><br/>
 
--<a href="https://react.dev/learn/start-a-new-react-project">REACT</a> <br />
--<a href="https://react.dev/learn/start-a-new-react-project">Node.js</a>
+Dentro da pasta Backend, use os seguintes comandos:
 
 ```sh
-npm install node
-npx create-react-app nome-da-pasta
-cd nome-da-pasta
+npm install
+npx nodemon server.js
+```
+<br>
+
+Dentro da pasta Frontend:
+
+```sh
+npm install
 npm start
 ```
+
 
 ## 📋 Licença/License
 
