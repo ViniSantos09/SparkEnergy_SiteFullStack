@@ -67,7 +67,7 @@ Para abrir este projeto você necessita das seguintes ferramentas:<br/>
 
 ### Projeto em React
 
-Para acessar e continuar com o desenvolvimento no projeto em react, siga o passo a passo:</br>
+Para acessar e continuar com o desenvolvimento no projeto em react, siga o passo a passo:</br><br/>
 1. Baixe o arquivo do repositório (.zip ou .rar) e descompacte-o.
 2. Abra o Visual Studio Code e navegue até a pasta <a href="https://github.com/2024-2-MCC2/Projeto10/tree/main/src">`src`</a>.
 3. Abra um novo terminal e siga os passos abaixo:
@@ -114,7 +114,7 @@ Para acessar e continuar com o desenvolvimento no projeto em react, siga o passo
     npm start
     ```
     
-    Assim que o site for aberto no navegador, ele estará pronto para navegação.
+    Assim que o site for aberto no navegador, ele estará pronto para navegação.<br/><br/>
 
 
 ## 📋 Licença/License
