@@ -16,7 +16,7 @@
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Logo by <a href="https://github.com/2024-2-MCC2/Projeto10">SparkEnergy</a> <a rel="license" href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY-SA 4.0</a>
 </p>
 
 
@@ -24,9 +24,9 @@ A SparkEnergy visa promover o acesso universal, confiável e acessível à energ
 
 A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.
 
-## Figma
+![Figma Logo](https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg) ## Figma
 
-<a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy">FIGMA</a>
+Esse é um <a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy">protópico no Figma</a> em que se baseamos para seguir o desenvolvimento.
 
 ## 🛠 Estrutura de pastas
 
@@ -48,13 +48,6 @@ A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas po
     &emsp;|-->React<br>
 |readme.md<br>
 
-
-## ![image](https://github.com/user-attachments/assets/02a4ec67-369d-434d-a0bb-0e8a03bc2f4d) Figma 
-
-Aqui segue nosso protópico visual ni Figma que se baseamos para seguir o desenvolvimento:<br/>
-
-<a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy?node-id=0-1&t=pOWPpKwn9hIG4LT4-1">Ver Projeto<a><br/>
-
 ## 🛠 Instalação
 
 <b>HTML:</b>
@@ -64,9 +57,9 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 💻 Configuração para Desenvolvimento
 
-Para abrir este projeto você necessita das seguintes ferramentas:
--<a hred="https://code.visualstudio.com/download"> Visual Studio Code></a><br/>
--<a href="https://react.dev/learn/start-a-new-react-project"> Node.js</a><br/><br/>
+Para abrir este projeto você necessita das seguintes ferramentas:<br/>
+-<a hred="https://code.visualstudio.com/download"> Visual Studio Code</a><br/>
+-<a href="https://nodejs.org/pt/download/prebuilt-installer/current"> Node.js</a><br/><br/>
 
 Dentro da pasta Backend, use os seguintes comandos:
 
@@ -76,13 +69,13 @@ npx nodemon server.js
 ```
 <br>
 
-Dentro da pasta Frontend:
+Dentro da pasta Frontend, use os seguintes comandos:
 
 ```sh
 npm install
 npm start
 ```
-
+<br>
 
 ## 📋 Licença/License
 
