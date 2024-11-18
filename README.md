@@ -130,8 +130,8 @@ Aqui estão todas as referências usadas no projeto.
 1. <a href="https://revolusolar.org.br">Revolusolar</a> 
 2. <a href="https://www.sociedadedosol.org.br">Sociedade do Sol</a>
 3. <a href="https://doe.greenpeace.org.br">Greenpeace Brasil</a>
-4. <a href="https://www.ecologica.org.br">Instituto Ecológica</a>
-5. <a href="https://www.litrodeluz.com">Litro de Luz Brasil</a>
+4. <a href="https://www.litrodeluz.com">Litro de Luz Brasil</a>
+5. <a href="https://www.ecologica.org.br">Instituto Ecológica</a>
 6. <a href="https://www.dompixote.org">Instituto Dom Pixote</a>
 7.  <a href="https://www.instagram.com/perifasustentavel/"><Instituto Perifa Sustentável</a>
 8. <a href="https://energia.wwf.org.br"> World Wide Fund for Nature (WWF)</a>
@@ -144,6 +144,6 @@ Aqui estão todas as referências usadas no projeto.
 
 ### Bibliotecas
 
-1. <p><a href="https://pt-br.react.dev/reference/react">React</a>. Documentação do React usada para auxíliar no sintaxe e inspiração de códigos.</p> 
-2. <p><a href="https://openai.com/index/chatgpt/">ChatGPT</a>. Inteligência artificial usada para auxíliar na geração de códigos e assistência técnica.</p>
+1. <p><a href="https://pt-br.react.dev/reference/react">React</a> - Documentação do React usada para auxíliar no sintaxe e inspiração de códigos.</p> 
+2. <p><a href="https://openai.com/index/chatgpt/">ChatGPT</a> - Inteligência artificial usada para auxíliar na geração de códigos e assistência técnica.</p>
 
