@@ -24,10 +24,9 @@ A SparkEnergy visa promover o acesso universal, confiável e acessível à energ
 
 A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.<br/>
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma Logo" width="23" height="23" style="vertical-align: middle; margin-right: 10px;"> Figma
+## <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma Logo" width="24" height="24" style="vertical-align: middle; margin-right: 10px;"> Figma
 
--<a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy"> Protópico do Projeto</a>
-<br/>
+-<a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy"> Protópico do Projeto</a><br/><br/>
 
 ## 🛠 Estrutura de pastas
 
@@ -55,8 +54,7 @@ A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas po
 <b>HTML:</b>
 
 Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-<br/>
+Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).<br/><br/>
 
 ## 💻 Configuração para Desenvolvimento
 
