@@ -71,50 +71,50 @@ Para acessar e continuar com o desenvolvimento no projeto em react, siga o passo
 1. Baixe o arquivo do repositório (.zip ou .rar) e descompacte-o.
 2. Abra o Visual Studio Code e navegue até a pasta <a href="https://github.com/2024-2-MCC2/Projeto10/tree/main/src">`src`</a>.
 3. Abra um novo terminal e siga os passos abaixo:
-
-```bash
-cd ../Frontend
-```
-
-Certifique-se de estar na pasta Frontend e, em seguida, execute:
-
-```bash
-npm install 
-```
+    
+    ```bash
+    cd ../Frontend
+    ```
+    
+    Certifique-se de estar na pasta Frontend e, em seguida, execute:
+    
+    ```bash
+    npm install 
+    ```
 
 4. Após a instalação da pasta `node_modules`, navegue para o Backend:
-
-```bash
-cd Backend
-```
-
-Na pasta Backend, execute:
-
-```bash
-npm install
-```
+    
+    ```bash
+    cd Backend
+    ```
+    
+    Na pasta Backend, execute:
+    
+    ```bash
+    npm install
+    ```
 
 5. Depois da instalação, inicie o servidor:
-
-```bash
-npm server.js
-```
-
-A mensagem "Servidor rodando na porta 5000" deverá aparecer.
+    
+    ```bash
+    npm server.js
+    ```
+    
+    A mensagem "Servidor rodando na porta 5000" deverá aparecer.
 
 6. Abra um novo terminal e navegue de volta para o Frontend:
-
-```bash
-cd Frontend
-```
-
-Para iniciar a visulização do projeto React, execute:
-
-```bash
-npm start
-```
-
-Assim que o site for aberto no navegador, ele estará pronto para navegação.
+    
+    ```bash
+    cd Frontend
+    ```
+    
+    Para iniciar a visulização do projeto React, execute:
+    
+    ```bash
+    npm start
+    ```
+    
+    Assim que o site for aberto no navegador, ele estará pronto para navegação.
 
 
 ## 📋 Licença/License
@@ -137,6 +137,6 @@ Aqui estão todas as referências usadas no projeto.
 
 ### Bibliotecas
 
-1. <a href="https://pt-br.react.dev/reference/react">React</a><br/>, documentação do React usada para auxíliar no sintaxe e inspiração de códigos. 
-2. <a href="https://openai.com/index/chatgpt/">ChatGPT</a><br/>, inteligência artificial usada para auxíliar na geração de códigos e assistência técnica.
+1. <p><a href="https://pt-br.react.dev/reference/react">React</a><br/>, documentação do React usada para auxíliar no sintaxe e inspiração de códigos.</p> 
+2. <p><a href="https://openai.com/index/chatgpt/">ChatGPT</a><br/>, inteligência artificial usada para auxíliar na geração de códigos e assistência técnica.</p>
 
