@@ -127,13 +127,20 @@ Para acessar e continuar com o desenvolvimento no projeto em react, siga o passo
 Aqui estão todas as referências usadas no projeto.
 
 ### ONGs e Sites de Inspirações
-1. <a href="https://energia.wwf.org.br"> World Wide Fund for Nature</a>
-2. <a href="https://ipe.org.br">Instituto de Pesquisas Ecológicas</a>
+1. <a href="https://energia.wwf.org.br"> World Wide Fund for Nature (WWF)</a>
+2. <a href="https://ipe.org.br">Instituto de Pesquisas Ecológicas (IPE)</a>
 3. <a href="https://doe.greenpeace.org.br">Greenpeace Brasil</a>
-4. <a href=""></a>
-5. <a href=""></a>
-6. <a href=""></a>
-7. <a href=""></a>
+4. <a href="https://www.gamba.org.br">Grupo Ambientalista da Bahia (GAMBA)</a>
+5. <a href="https://revolusolar.org.br">Revolusolar </a>
+6. <a href="https://www.dompixote.org">Instituto Dom Pixote</a>
+7. <a href="https://www.ecologica.org.br">Instituto Ecológica</a>
+8. <a href="https://www.litrodeluz.com">Litro de Luz Brasil</a>
+9. <a href="https://www.sociedadedosol.org.br">Sociedade do Sol</a>
+10. <a href="https://www.instagram.com/perifasustentavel/"><Instituto Perifa Sustentável/a>
+11. <a href="https://iema.es.gov.br">Instituto Estadual de Meio Ambiente e Recursos Hídricos (IEMA)</a>
+12. <a href="https://ongverde.org">ONG Verde - Educação Ambiental, Agroecologia e Energias Renováveis</a>
+13. <a href="https://amigosdobem.org">Amigos Do Bem - Instituicao Nacional Contra a Fome e a Miseria</a>
+
 
 ### Bibliotecas
 
