@@ -133,9 +133,9 @@ Aqui estão todas as referências usadas no projeto.
 4. <a href="https://www.litrodeluz.com">Litro de Luz Brasil</a>
 5. <a href="https://www.ecologica.org.br">Instituto Ecológica</a>
 6. <a href="https://www.dompixote.org">Instituto Dom Pixote</a>
-7.  <a href="https://www.instagram.com/perifasustentavel/"><Instituto Perifa Sustentável</a>
+7. <a href="https://www.instagram.com/perifasustentavel/">Instituto Perifa Sustentável</a>
 8. <a href="https://energia.wwf.org.br"> World Wide Fund for Nature (WWF)</a>
-9.  <a href="https://www.gamba.org.br">Grupo Ambientalista da Bahia (GAMBA)</a>
+9. <a href="https://www.gamba.org.br">Grupo Ambientalista da Bahia (GAMBA)</a>
 10. <a href="https://ipe.org.br">Instituto de Pesquisas Ecológicas (IPE)</a>
 11. <a href="https://iema.es.gov.br">Instituto Estadual de Meio Ambiente e Recursos Hídricos (IEMA)</a>
 12. <a href="https://amigosdobem.org">Amigos Do Bem - Instituicao Nacional Contra a Fome e a Miseria</a>
