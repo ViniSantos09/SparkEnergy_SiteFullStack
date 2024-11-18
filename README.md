@@ -15,7 +15,7 @@
 ## Descrição
 
 <p align="center">
-<img src="imagens/Logo.png" alt="SparkEnergy" border="0">
+<img src="imagens/SparkEnergy.png" alt="SparkEnergy" border="0">
   Logo by <a href="https://github.com/2024-2-MCC2/Projeto10">SparkEnergy</a> <a rel="license" href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY-SA 4.0</a>
 </p>
 
