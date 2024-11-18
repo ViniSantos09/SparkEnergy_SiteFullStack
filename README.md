@@ -60,22 +60,62 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 Para abrir este projeto você necessita das seguintes ferramentas:<br/>
 -<a href="https://code.visualstudio.com/download"> Visual Studio Code</a><br/>
--<a href="https://nodejs.org/pt/download/prebuilt-installer/current"> Node.js</a><br/><br/>
+-<a href="https://pt-br.react.dev"> React</a><br/>
+-<a href="https://nodejs.org/pt/download/prebuilt-installer/current"> Node.js</a><br/>
+-<a href="https://dev.mysql.com/downloads/workbench"> MySQL Workbench</a><br/><br/>
 
-Dentro da pasta Backend, use os seguintes comandos:
 
-```sh
-npm install
-npx nodemon server.js
+### Projeto em React
+
+Para acessar e continuar com o desenvolvimento no projeto em react, siga o passo a passo:</br>
+1. Baixe o arquivo do repositório (.zip ou .rar) e descompacte-o.
+2. Abra o Visual Studio Code e navegue até a pasta <a href="https://github.com/2024-2-MCC2/Projeto10/tree/main/src">`src`</a>.
+3. Abra um novo terminal e siga os passos abaixo:
+
+```bash
+cd ../Frontend
 ```
 
-Dentro da pasta Frontend, use os seguintes comandos:
+Certifique-se de estar na pasta Frontend e, em seguida, execute:
 
-```sh
+```bash
+npm install 
+```
+
+4. Após a instalação da pasta `node_modules`, navegue para o Backend:
+
+```bash
+cd Backend
+```
+
+Na pasta Backend, execute:
+
+```bash
 npm install
+```
+
+5. Depois da instalação, inicie o servidor:
+
+```bash
+npm server.js
+```
+
+A mensagem "Servidor rodando na porta 5000" deverá aparecer.
+
+6. Abra um novo terminal e navegue de volta para o Frontend:
+
+```bash
+cd Frontend
+```
+
+Para iniciar a visulização do projeto React, execute:
+
+```bash
 npm start
 ```
-<br/>
+
+Assim que o site for aberto no navegador, ele estará pronto para navegação.
+
 
 ## 📋 Licença/License
 
@@ -84,7 +124,19 @@ npm start
 
 ## 🎓 Referências
 
-Aqui estão as referências usadas no projeto.
+Aqui estão todas as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
+### ONGs e Sites de Inspirações
+1. <a href="https://energia.wwf.org.br"> World Wide Fund for Nature</a>
+2. <a href="https://ipe.org.br">Instituto de Pesquisas Ecológicas</a>
+3. <a href="https://doe.greenpeace.org.br">Greenpeace Brasil</a>
+4. <a href=""></a>
+5. <a href=""></a>
+6. <a href=""></a>
+7. <a href=""></a>
+
+### Bibliotecas
+
+1. <a href="https://pt-br.react.dev/reference/react">React</a><br/>, documentação do React usada para auxíliar no sintaxe e inspiração de códigos. 
+2. <a href="https://openai.com/index/chatgpt/">ChatGPT</a><br/>, inteligência artificial usada para auxíliar na geração de códigos e assistência técnica.
 
