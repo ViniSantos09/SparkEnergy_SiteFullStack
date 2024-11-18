@@ -1,165 +1,133 @@
-import HeaderConnect from "../components/containers/Header";
+import React, { useState } from "react";
+import Progress from "../components/form-components/Progress";
+import Header from "../components/containers/Header";
+import {
+  DadoPessoal,
+  Endereco,
+  DadosCadastrais,
+  Cadastrar,
+} from "../components/form-components/SignUpForm";
 import {
   PageContainer,
   OverlayContainer,
   Container,
+  ProgressContainer,
+  H1,
+  Circle,
   Content,
-  FormContainer,
-  EntryArea,
-  H2,
-  Input,
-  Label,
-  ErrorMessage,
-  ButtonShowPassword,
-  ButtonLogin,
-  LinkPage,
-} from "../styles/form/LoginFormStyle";
-import { UserRoundPlus } from "lucide-react";
-import validator from "validator";
-import { useState } from "react";
-import { useForm } from "react-hook-form";
+  Btns,
+  ButtonPrev,
+  ButtonNext,
+  ButtonPublish,
+} from "../styles/SingUpStyle";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useForm, FormProvider } from "react-hook-form";
 import axios from "axios";
 
 function SignUp() {
-  const [showPassword, setShowPassword] = useState(false);
-  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+  const methods = useForm();
+  const [step, setSteps] = useState(1);
+  const totalSteps = 4;
 
   let navigate = useNavigate();
 
-  const togglePasswordVisibility = () => {
-    setShowPassword(!showPassword);
-  };
-  const toggleConfirmPasswordVisibility = () => {
-    setShowConfirmPassword(!showConfirmPassword);
+  const [showErrors, setShowErrors] = useState(false);
+  // Vai ser mudado apenas quando o botão 'Next' for clicado, para o valor só ser mostrado quando o botão for clicado
+
+  function HandlePrev() {
+    if (step > 1) setSteps((step) => step - 1);
+  }
+
+  const HandleNext = async () => {
+    const isStepValid = await methods.trigger(); // Valida os campos
+    if (isStepValid) {
+      setShowErrors(false); // Resetar erro ao passar para o próximo passo
+      setSteps((step) => step + 1); // Avança se válido
+    } else {
+      setShowErrors(true); // Exibe erros após tentativa de avançar
+    }
   };
 
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    watch,
-  } = useForm();
-
-  const onSubmit = (data) => {
+  const onSubmit = async (data) => {
     const { confirmaSenha, ...rest } = data;
-    axios.post("http://localhost:3002/auth", rest).then(() => {
-      console.log(rest);
-    });
-
-    setTimeout(() => {
-      navigate("/ValidSignUp");
-    }, 1000);
+    try {
+      axios.post("https://sparkenergy-api.onrender.com/user", rest);
+      // Navegar para a página de sucesso após o cadastro
+      navigate("/validSignUp");
+    } catch (error) {
+      console.error("Erro ao cadastrar:", error);
+      // Aqui você pode exibir uma mensagem de erro para o usuário, se desejar
+    }
   };
 
-  const watchPassword = watch("password");
+  const onError = (errors) => {
+    if (showErrors) {
+      console.log("Erros de validação:", errors);
+    }
+    // Aqui você pode lidar com os erros, mas não deve enviar nada ao servidor
+  };
+
+  const renderSteps = () => {
+    switch (step) {
+      case 1:
+        return <DadoPessoal showErrors={showErrors} />;
+      case 2:
+        return <Endereco showErrors={showErrors} />;
+      case 3:
+        return <DadosCadastrais showErrors={showErrors} />;
+      case 4:
+        return <Cadastrar />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <PageContainer>
-      <HeaderConnect />
+      <Header />
       <OverlayContainer>
         <Container>
-          <Content>
-            <div>
-              <H2>
-                <UserRoundPlus size={32} />
-                Cadastro
-              </H2>
-              <form onSubmit={handleSubmit(onSubmit)}>
-                <FormContainer>
-                  <EntryArea>
-                    <Input
-                      type="text"
-                      {...register("username", {
-                        required: "Nome de usuário é obrigatório",
-                        pattern: {
-                          value: /^[a-z0-9_-]+$/,
-                          message:
-                            "Apenas letras minúsculas, sublinhado(_), travessão(-) são permitidos ",
-                        },
-                      })}
-                      $hasError={errors?.username}
-                    />
-                    <Label>Digite seu nome de usuário</Label>
-                  </EntryArea>
-                  <ErrorMessage error={errors?.username} />
-                </FormContainer>
-                <FormContainer>
-                  <EntryArea>
-                    <Input
-                      type="text"
-                      {...register("email", {
-                        required: "Email é obrigatório",
-                        validate: (value) => {
-                          // Validação do e-mail
-                          if (!validator.isEmail(value)) {
-                            return "Por favor, insira um e-mail válido"; // Mensagem personalizada de erro
-                          }
-                          return true; // Retorna true se a validação for bem-sucedida
-                        },
-                      })}
-                      $hasError={errors?.email}
-                    />
-                    <Label>Digite seu email</Label>
-                  </EntryArea>
-                  <ErrorMessage error={errors?.email} />
-                </FormContainer>
-                <FormContainer>
-                  <EntryArea>
-                    <Input
-                      type={showPassword ? "text" : "password"}
-                      {...register("password", {
-                        required: "Senha é obrigatória",
-                        minLength: {
-                          value: 8,
-                          message: "A senha deve ter pelo menos 8 caracteres",
-                        },
-                      })}
-                      $hasError={errors?.password}
-                    />
-                    <Label>Digite sua senha</Label>
-                    <ButtonShowPassword
-                      onClick={togglePasswordVisibility}
-                      $hasError={errors?.password}
-                      type="button"
-                    >
-                      {showPassword ? "Esconder" : "Mostrar"}
-                    </ButtonShowPassword>
-                  </EntryArea>
-                  <ErrorMessage error={errors?.password} />
-                </FormContainer>
-                <FormContainer>
-                  <EntryArea>
-                    <Input
-                      type={showConfirmPassword ? "text" : "password"}
-                      {...register("confirmaSenha", {
-                        required: "Por favor, confirme sua senha",
-                        minLength: 7,
-                        validate: (value) => {
-                          if (value === watchPassword) {
-                            return true;
-                          } else {
-                            return "As senhas não conferem";
-                          }
-                        },
-                      })}
-                      $hasError={errors?.confirmaSenha}
-                    />
-                    <Label>Confirme sua senha</Label>
-                    <ButtonShowPassword
-                      onClick={toggleConfirmPasswordVisibility}
-                      $hasError={errors?.password}
-                      type="button"
-                    >
-                      {showConfirmPassword ? "Esconder" : "Mostrar"}
-                    </ButtonShowPassword>
-                  </EntryArea>
-                  <ErrorMessage error={errors?.confirmaSenha} />
-                </FormContainer>
-                <ButtonLogin type="submit">Cadastro</ButtonLogin>
-              </form>
-            </div>
-            <LinkPage to="/login">Fazer Login</LinkPage>
-          </Content>
+          <ProgressContainer
+            style={{ display: step === totalSteps ? "none" : "flex" }}
+          >
+            <Progress totalSteps={totalSteps} step={step} />
+            <Circle $active={step >= 1}>1</Circle>
+            <Circle $active={step >= 2}>2</Circle>
+            <Circle $active={step >= 3}>3</Circle>
+            <Circle $active={step >= 4}>4</Circle>
+          </ProgressContainer>
+          <FormProvider {...methods}>
+            <form onSubmit={methods.handleSubmit(onSubmit, onError)}>
+              <H1>Cadastro</H1>
+              <Content>{renderSteps()}</Content>
+              <Btns>
+                <ButtonPrev
+                  disabled={step <= 1}
+                  style={{ display: step === 5 ? "none" : "flex" }}
+                  onClick={HandlePrev}
+                  type="button"
+                >
+                  <ChevronLeft />
+                  Prev
+                </ButtonPrev>
+                <ButtonNext
+                  style={{ display: step >= 4 ? "none" : "flex" }}
+                  onClick={HandleNext}
+                  type="button"
+                >
+                  Next
+                  <ChevronRight />
+                </ButtonNext>
+                <ButtonPublish
+                  style={{ display: step === 4 ? "flex" : "none" }}
+                  type="submit"
+                >
+                  Cadastrar
+                </ButtonPublish>
+              </Btns>
+            </form>
+          </FormProvider>
         </Container>
       </OverlayContainer>
     </PageContainer>

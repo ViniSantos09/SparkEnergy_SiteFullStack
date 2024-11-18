@@ -10,12 +10,15 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  padding-top: 9rem;
+
+  @media (max-width: 950px) {
+    margin-top: 9rem;
+  }
 `;
 
 const ContentContainer = styled.div`
   background-color: #ffd700;
-  color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,8 +32,24 @@ const ContentContainer = styled.div`
   text-align: center;
   font-family: "Poppins", sans-serif;
 
-  @media (max-width: 950px) {
-    margin: 20rem 0;
+  & > * + * {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 564px) {
+    width: 460px;
+  }
+
+  @media (max-width: 474px) {
+    width: 400px;
+  }
+
+  @media (max-width: 414px) {
+    width: 390px;
+  }
+
+  @media (max-width: 480px) {
+    height: 70%;
   }
 `;
 
@@ -45,15 +64,24 @@ const P = styled.p`
 const Btns = styled.div`
   display: flex;
   width: 100%;
+
   & > * + * {
     margin-left: 1rem;
+  }
+
+  @media (max-width: 750px) {
+    flex-direction: column;
+    align-items: center;
+
+    & > * + * {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
   }
 `;
 
 const Button = styled(Link)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   text-decoration: none;
   outline: none;
   border: none;
@@ -69,6 +97,10 @@ const Button = styled(Link)`
 
   &:active {
     transform: scale(0.98);
+  }
+
+  @media (max-width: 750px) {
+    width: 100%;
   }
 `;
 
@@ -89,7 +121,7 @@ function ValidLogin() {
           </P>
           <Btns>
             <Button to="/">Home</Button>
-            <Button to="/SparkPost">SparkPost</Button>
+            <Button to="/SparkConnect">SparkConnect</Button>
           </Btns>
         </ContentContainer>
       </Container>

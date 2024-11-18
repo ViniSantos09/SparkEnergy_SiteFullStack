@@ -10,7 +10,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  padding-top: 9rem;
 
   @media (max-width: 950px) {
     margin-top: 9rem;
@@ -19,7 +19,6 @@ const Container = styled.div`
 
 const ContentContainer = styled.div`
   background-color: #ffd700;
-  color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -32,14 +31,42 @@ const ContentContainer = styled.div`
   margin: 0 auto;
   text-align: center;
   font-family: "Poppins", sans-serif;
+
+  & > * + * {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 564px) {
+    width: 460px;
+  }
+
+  @media (max-width: 474px) {
+    width: 400px;
+  }
+
+  @media (max-width: 414px) {
+    width: 390px;
+  }
+
+  @media (max-width: 480px) {
+    height: 70%;
+  }
 `;
 
 const TitleContainer = styled.div`
   font-size: 1.2rem;
+
+  @media (max-width: 564px) {
+    font-size: 0.9rem;
+  }
 `;
 
 const P = styled.p`
   font-size: 1rem;
+
+  @media (max-width: 564px) {
+    font-size: 0.8rem;
+  }
 `;
 
 const Btns = styled.div`

@@ -1,7 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { BookOpenText, MessagesSquare, Handshake } from "lucide-react";
-import { ButtonContainer, ButtonH2, Button } from "../../styles/AboutStyle";
+import { BookOpenText, MessagesSquare, ChartLine } from "lucide-react";
+import {
+  ButtonContainer,
+  ButtonH2,
+  Button,
+} from "../../styles/home/AboutStyle";
+import { Link } from "react-router-dom";
 
 const Container = styled.section`
   display: flex;
@@ -9,21 +14,26 @@ const Container = styled.section`
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 100vh;
+
   padding-top: 5rem;
+  margin-top: 7rem;
 `;
 
 const ServiceContainer = styled.div`
   text-align: center;
   margin: auto;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 4rem;
   gap: 1rem;
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
 `;
 
-const ServicesCard = styled.div`
+const ServicesCard = styled(Link)`
   width: 350px;
   border-radius: 8px;
   color: #000;
@@ -33,6 +43,7 @@ const ServicesCard = styled.div`
   text-align: center;
   cursor: pointer;
   background-color: yellow;
+  text-decoration: none;
 
   transition: 0.5s ease;
   &:hover {
@@ -54,36 +65,50 @@ const H2 = styled.h2`
 `;
 
 function Sevices() {
+  const scrollToSection = (event, id) => {
+    event.preventDefault();
+    const section = document.getElementById(id);
+    section?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <Container id="services">
-      <H2>Nossos Serviços</H2>
+      <H2>O que oferecemos?</H2>
       <ServiceContainer>
-        <ServicesCard>
+        <ServicesCard to="/" onClick={(e) => scrollToSection(e, "ods")}>
           <BookOpenText size={50} />
-          <h2>Portal de Conhecimento: Tudo sobre Energia Limpa e o ODS 7</h2>
-          <p>
-            Este portal oferece uma visão abrangente sobre o ODS 7, que busca
-            garantir acesso universal à energia limpa e sustentável. Aqui, você
-            entenderá a importância desse objetivo para promover um futuro mais
-            saudável e combater as mudanças climáticas, fundamentais para todos.
+          <h2 style={{ fontSize: "20px" }}>
+            Tudo sobre Energia Limpa e acessível
+          </h2>
+          <p style={{ fontSize: "15px" }}>
+            Nosso portal é dedicado a divulgar e compartilhar conhecimentos
+            sobre Energia Limpa e Acessível. Aqui, você encontrará tópicos sobre
+            a ODS 7 da ONU, que visa garantir o acesso universal a energia
+            sustentável. Exploramos diferentes tipos de energia limpa e
+            renovável, além de abordar profissões, pessoas e organizações
+            envolvidas nessa causa.
           </p>
         </ServicesCard>
-        <ServicesCard>
+
+        <ServicesCard to="SparkConnect">
           <MessagesSquare size={48} />
-          <h2>SparkPost</h2>
-          <p>
-            Através de fóruns e discussões, nosso portal conecta pessoas em
-            torno do ODS 7, promovendo a troca de conhecimentos e experiências.
-            Juntos, podemos formar uma comunidade ativa e engajada na busca por
-            soluções energéticas responsáveis e inovadoras.
+          <h2>SparkConnect</h2>
+          <p style={{ fontSize: "15px" }}>
+            O SparkPost busca criar um espaço onde o tema da Energia Limpa e
+            Acessível ganhe mais visibilidade, conectando pessoas e organizações
+            interessadas e engajadas na causa. Por meio de postagens e
+            publicações, promovemos a troca de sugestões e denúncias sobre
+            condições locais, além de ser possível fazer divulgações de
+            campanhas e eventos relacionados ao tema.
           </p>
         </ServicesCard>
-        <ServicesCard>
-          <Handshake size={48} />
-          <h2>Muito Além de Nós</h2>
-          <p>
-            Desenvolvemos soluções de software personalizadas para atender suas
-            necessidades.
+
+        <ServicesCard to="/calculo">
+          <ChartLine size={48} />
+          <h2>Calculadora de Produção de energia</h2>
+          <p style={{ fontSize: "15px" }}>
+            Desenvolvemos um calculadora para gerar um gráfico e calcular a
+            produção de energia de placas solares (Energia Solar) e de
+            aerogeradores (Energia Eólica) em determinado período de tempo.
           </p>
         </ServicesCard>
       </ServiceContainer>

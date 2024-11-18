@@ -4,22 +4,13 @@ import { Link } from "react-router-dom";
 // Login.js
 export const PageContainer = styled.div`
   //...
-  background-color: #0b0b0b;
-  height: 100vh;
-  width: 100%;
   overflow: hidden;
-
-  @media (max-width: 950px) {
-    height: 124vh;
-  }
 `;
 
 export const OverlayContainer = styled.div`
-  height: 85%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  padding-top: 13vh;
 
   @media (max-width: 950px) {
     align-items: end;
@@ -36,6 +27,22 @@ export const Container = styled.div`
   border-radius: 5px;
   overflow-x: hidden;
   margin: 0 auto;
+
+  @media (max-width: 950px) {
+    margin-top: 10rem;
+  }
+
+  @media (max-width: 564px) {
+    width: 460px;
+  }
+
+  @media (max-width: 474px) {
+    width: 400px;
+  }
+
+  @media (max-width: 414px) {
+    width: 390px;
+  }
 `;
 
 // =========================================
@@ -79,7 +86,7 @@ export const Input = styled.input`
   outline: none;
   font-size: 1.1em;
   padding: 0 15px;
-  line-height: 50px;
+  line-height: 44px;
   border-radius: 10px;
   border: 2px solid #00000091;
   background: transparent;
@@ -183,28 +190,30 @@ export const ButtonShowPassword = styled.button`
   position: absolute;
   z-index: 9999;
   right: 14px;
-  top: 15px;
+  top: 13px;
   border: none;
   background: transparent;
   color: #005700;
   font-size: 1rem;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-<<<<<<< HEAD
 
   ${({ $hasError }) =>
     $hasError &&
     `
         color: red;
   `}
-=======
->>>>>>> 8c7e2788fd1992c7abd90145060b5734d5efddc9
+`;
+
+export const PLogin = styled.div`
+  margin: 1rem 0;
+
+  & > * + * {
+    margin-top: 1rem;
+  }
 `;
 
 export const LinkPage = styled(Link)`
-  display: block;
-  text-align: center;
-  margin-top: 10px;
   color: #007bff;
   text-decoration: none;
   &:hover {

@@ -11,7 +11,8 @@ import {
   LProfImg,
   LProfContent,
   LProfP,
-} from "../../styles/LayoutStyle";
+  H2,
+} from "../../styles/home/LayoutStyle";
 
 function LayoutProf() {
   // Estado para o índice do botão aberto
@@ -86,9 +87,8 @@ function LayoutProf() {
 
   return (
     <LProfWrapper>
+      <H2>Profissões na Área de Energias Renováveis</H2>
       <LProfContainer>
-        <h1>Profissões na Área de Energias Renováveis</h1>
-
         <LProfBox>
           {professions.map((profession, index) => (
             <Prof key={index}>

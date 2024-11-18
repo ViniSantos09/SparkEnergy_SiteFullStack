@@ -177,18 +177,18 @@ function Footer() {
       </SocialIcons>
 
       <UlFooter>
-        <FooterLink to="/">Home</FooterLink>
+        <FooterLink to="/">Início</FooterLink>
         <FooterLink to="#about" onClick={(e) => scrollToSection(e, "about")}>
-          About
+          Sobre
         </FooterLink>
         <FooterLink
           to="#services"
           onClick={(e) => scrollToSection(e, "services")}
         >
-          Services
+          Serviços
         </FooterLink>
-        <FooterLink to="/Contacts">Contacts</FooterLink>
         <FooterLink to="/SparkConnect">SparkConnect</FooterLink>
+        <FooterLink to="/calculo">Calculadora</FooterLink>
       </UlFooter>
       <ListTextFooter>
         <TextFooter to="/">Termos de Uso</TextFooter>

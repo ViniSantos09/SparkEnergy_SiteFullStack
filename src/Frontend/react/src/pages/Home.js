@@ -7,7 +7,7 @@ import About from "../components/Home/About";
 import Services from "../components/Home/Services";
 import TypesEnergy from "../components/Home/TypesEnergy";
 import Ongs from "../components/Home/Ongs";
-import Calculo from "../components/Home/Calculo";
+import Ods from "../components/Home/Ods";
 
 const HomeContainer = styled.div`
   display: flex;
@@ -16,8 +16,16 @@ const HomeContainer = styled.div`
 const MainContainer = styled.div``;
 
 const ContainerDivisor = styled.div`
+  margin-bottom: 10vh;
+
   & > * + * {
-    margin-top: 30vh;
+    margin-top: 25vh;
+  }
+
+  @media (max-width: 600px) {
+    & > * + * {
+      margin-top: 35vh;
+    }
   }
 `;
 
@@ -32,9 +40,9 @@ function Home() {
             <About />
             <Services />
           </ContainerDivisor>
+          <Ods />
           <TypesEnergy />
           <Ongs />
-          <Calculo />
         </MainContainer>
       </main>
       <Footer />

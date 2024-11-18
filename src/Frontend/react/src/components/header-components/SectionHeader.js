@@ -13,6 +13,10 @@ const HomeSection = styled.section`
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  @media (max-width: 600px) {
+    height: 85vh;
+  }
 `;
 
 const DynamicTitle = styled.h1`
@@ -43,7 +47,7 @@ const SubHeading = styled.h2`
     font-size: 1.5rem;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     font-size: 1rem;
   }
 `;

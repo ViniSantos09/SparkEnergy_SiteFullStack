@@ -13,6 +13,7 @@ import {
   ButtonShowPassword,
   ButtonLogin,
   LinkPage,
+  PLogin,
 } from "../styles/form/LoginFormStyle";
 import { UserRoundPlus } from "lucide-react";
 import validator from "validator";
@@ -24,7 +25,7 @@ import { AuthContext } from "../Helpers/AuthContext";
 
 function Login() {
   const [showPassword, setShowPassword] = useState(false);
-  const { authState, setAuthState } = useContext(AuthContext);
+  const { setAuthState } = useContext(AuthContext);
 
   let navigate = useNavigate();
 
@@ -41,13 +42,16 @@ function Login() {
   const onSubmit = async (data) => {
     try {
       const response = await axios.post(
-        "http://localhost:3002/auth/login",
+        "https://sparkenergy-api.onrender.com/user/login",
         data
       );
 
-      localStorage.setItem("accessToken", response.data);
-      setAuthState(true);
-      console.log(authState);
+      localStorage.setItem("accessToken", response.data.token);
+      setAuthState({
+        username: response.data.username,
+        id: response.data.id,
+        status: true,
+      });
 
       // Navegar apenas se o login for bem-sucedido
       navigate("/validlogin");
@@ -145,8 +149,12 @@ function Login() {
             <ButtonLogin onClick={() => handleSubmit(onSubmit)()}>
               Login
             </ButtonLogin>
-            <LinkPage href="#">Esqueceu a senha?</LinkPage>
-            <LinkPage to="/signUp">Fazer cadastro</LinkPage>
+            <PLogin>
+              <div>
+                Não tem uma conta?{" "}
+                <LinkPage to="/signup">Fazer Cadastro</LinkPage>
+              </div>
+            </PLogin>
           </Content>
         </Container>
       </OverlayContainer>

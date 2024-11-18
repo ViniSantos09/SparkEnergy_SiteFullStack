@@ -21,7 +21,7 @@ const ProgressContainer2 = styled.div`
 `;
 
 function Progress({ totalSteps, step }) {
-  const progress = ((step - 1) / totalSteps) * 170; // Garantir que o valor esteja em % (0-100)
+  const progress = ((step - 1) / totalSteps) * 130; // Garantir que o valor esteja em % (0-100)
 
   return (
     <ProgressContainer $progress={progress}>
