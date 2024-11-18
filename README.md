@@ -15,14 +15,14 @@
 ## Descrição
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+<img src="imagens/Logo.png" alt="SparkEnergy" border="0">
   Logo by <a href="https://github.com/2024-2-MCC2/Projeto10">SparkEnergy</a> <a rel="license" href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY-SA 4.0</a>
 </p>
 
 
 A SparkEnergy visa promover o acesso universal, confiável e acessível à energia, ouvindo as comunidades sobre suas dificuldades. Alinhando-se ao Objetivo 7.1 da ODS 7 da ONU: 'Garantir o acesso universal, confiável, moderno e a preços acessíveis a serviços de energia. Na SparkEnergy, a conexão vai além da internet, buscando unir pessoas, ideias e soluções para problemas de acesso à energia. O espaço incentiva a troca de experiências, denúncias e sugestões, criando uma rede de apoio entre moradores de diferentes bairros e ajudando a mapear a realidade energética das comunidades.
 
-A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.<br/>
+A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.<br/><br/>
 
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma Logo" width="24" height="24" style="vertical-align: middle; margin-right: 10px;"> Figma
 
@@ -58,7 +58,8 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 💻 Configuração para Desenvolvimento
 
-Para abrir este projeto você necessita das seguintes ferramentas:<br/>
+Para abrir este projeto você necessita das seguintes ferramentas:<br/><br/>
+
 -<a href="https://code.visualstudio.com/download"> Visual Studio Code</a><br/>
 -<a href="https://pt-br.react.dev"> React</a><br/>
 -<a href="https://nodejs.org/pt/download/prebuilt-installer/current"> Node.js</a><br/>
