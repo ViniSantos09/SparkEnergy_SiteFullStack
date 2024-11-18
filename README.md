@@ -24,7 +24,7 @@ A SparkEnergy visa promover o acesso universal, confiável e acessível à energ
 
 A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.
 
-![Figma Logo](https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg) ## Figma
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma Logo" width="30" height="30" style="vertical-align: middle; margin-right: 10px;"> ## Figma
 
 Esse é um <a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy">protópico no Figma</a> em que se baseamos para seguir o desenvolvimento.
 
