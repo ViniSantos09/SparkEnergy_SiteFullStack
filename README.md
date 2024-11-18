@@ -16,7 +16,7 @@
 
 <p align="center">
 <img src="imagens/SparkEnergy (Sem Fundo).png" alt="SparkEnergy" border="0">
-  Logo by <a href="https://github.com/2024-2-MCC2/Projeto10">SparkEnergy</a> <a rel="license" href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY-SA 4.0</a>
+  Image by <a href="https://github.com/2024-2-MCC2/Projeto10">SparkEnergy</a> <a rel="license" href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY-SA 4.0</a>
 </p>
 
 
@@ -58,7 +58,7 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 💻 Configuração para Desenvolvimento
 
-Para abrir este projeto você necessita das seguintes ferramentas:<br/><br/>
+Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://code.visualstudio.com/download"> Visual Studio Code</a><br/>
 -<a href="https://pt-br.react.dev"> React</a><br/>
