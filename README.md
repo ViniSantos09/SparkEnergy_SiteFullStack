@@ -22,12 +22,12 @@
 
 A SparkEnergy visa promover o acesso universal, confiável e acessível à energia, ouvindo as comunidades sobre suas dificuldades. Alinhando-se ao Objetivo 7.1 da ODS 7 da ONU: 'Garantir o acesso universal, confiável, moderno e a preços acessíveis a serviços de energia. Na SparkEnergy, a conexão vai além da internet, buscando unir pessoas, ideias e soluções para problemas de acesso à energia. O espaço incentiva a troca de experiências, denúncias e sugestões, criando uma rede de apoio entre moradores de diferentes bairros e ajudando a mapear a realidade energética das comunidades.
 
-A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.
+A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.<br/>
 
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma Logo" width="23" height="23" style="vertical-align: middle; margin-right: 10px;"> Figma
 
 -<a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy"> Protópico do Projeto</a>
-<br>
+<br/>
 
 ## 🛠 Estrutura de pastas
 
@@ -48,7 +48,7 @@ A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas po
     &emsp;|-->Html_Css_Js<br>
     &emsp;|-->React<br>
 |readme.md<br>
-<br>
+<br/>
 
 ## 🛠 Instalação
 
@@ -56,12 +56,12 @@ A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas po
 
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-<br>
+<br/>
 
 ## 💻 Configuração para Desenvolvimento
 
 Para abrir este projeto você necessita das seguintes ferramentas:<br/>
--<a hred="https://code.visualstudio.com/download"> Visual Studio Code</a><br/>
+-<a href="https://code.visualstudio.com/download"> Visual Studio Code</a><br/>
 -<a href="https://nodejs.org/pt/download/prebuilt-installer/current"> Node.js</a><br/><br/>
 
 Dentro da pasta Backend, use os seguintes comandos:
@@ -70,7 +70,6 @@ Dentro da pasta Backend, use os seguintes comandos:
 npm install
 npx nodemon server.js
 ```
-<br>
 
 Dentro da pasta Frontend, use os seguintes comandos:
 
@@ -78,12 +77,12 @@ Dentro da pasta Frontend, use os seguintes comandos:
 npm install
 npm start
 ```
-<br>
+<br/>
 
 ## 📋 Licença/License
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-2-MCC2/Projeto10">SparkEnergy</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2024-2-MCC2/Projeto10">FECAP - Arthur Rodrigues Ferreira, Bernardo Seijas Cavalcante, Gabriel Henrique Coelho Marussi, Israel Ribeiro Ramos, Vinicius dos Santos Ribeiro</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
-<br>
+<br/>
 
 ## 🎓 Referências
 
