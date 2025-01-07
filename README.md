@@ -51,10 +51,11 @@ A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas po
 
 ## 🛠 Instalação
 
-<b>HTML:</b>
-
 Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).<br/><br/>
+Vá para o link: https://sparkenergy.netlify.app/<br/>
+Edit: Esse link serve apenas para a visualização do FrontEnd, pois os serviços de API e Banco de dados estão inativos.<br/>
+  - caso queira ver o site funcionando 100%, siga as instruções abaixo
+<br/>
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -114,6 +115,18 @@ Para acessar e continuar com o desenvolvimento no projeto em react, siga o passo
     ```bash
     npm start
     ```
+Criar a conexão com o banco de dados localmente
+
+ 1. Tenha o MySQL baixado na sua máquina, para fazer a conexão use: MySQLWorkbench(recomendado) ou Terminal.
+ 2. Vá na sua conexão principal e crie um banco de dados chamado `sparkenergydb`
+ 3. vá em `Backend/src/config/config.json`
+ 4. Em "development" coloque essas credenciais:
+	- username: root
+	- password: senha do mysql na sua máquina.
+	- database: sparkenergydb
+	- host: localhost
+
+5. Veja se no terminal do servidor aparece "Server running on port 3002"
     
     Assim que o site for aberto no navegador, ele estará pronto para navegação.<br/><br/>
 
