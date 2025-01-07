@@ -1,38 +1,23 @@
 {
   "development": {
-    "username": "adminSparkEnergy",
-    "password": "$parK@!1172211",
+    "username": "root",
+    "password": "password",
     "database": "sparkenergydb",
-    "host": "sparkenergy-server.mysql.database.azure.com",
-    "dialect": "mysql",
-    "dialectOptions": {
-      "ssl": {
-        "rejectUnauthorized": false
-      }
-    }
+    "host": "localhost",
+    "dialect": "mysql"
   },
   "test": {
-    "username": "adminSparkEnergy",
-    "password": "$parK@!1172211",
-    "database": "sparkenergydb",
-    "host": "sparkenergy-server.mysql.database.azure.com",
-    "dialect": "mysql",
-    "dialectOptions": {
-      "ssl": {
-        "rejectUnauthorized": false
-      }
-    }
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "production": {
-    "username": "adminSparkEnergy",
-    "password": "$parK@!1172211",
-    "database": "sparkenergydb",
-    "host": "sparkenergy-server.mysql.database.azure.com",
-    "dialect": "mysql",
-    "dialectOptions": {
-      "ssl": {
-        "rejectUnauthorized": false
-      }
-    }
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
