@@ -24,28 +24,35 @@ A SparkEnergy visa promover o acesso universal, confiável e acessível à energ
 
 A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas podem se apoiar mutuamente. Ao compartilhar experiências e sugestões, cada um contribui para a comunidade e para um movimento global que busca garantir o acesso à energia limpa e acessível. Juntos, podemos construir um futuro mais justo para todos.<br/><br/>
 
+## Status do site
+:green_circle: funcionando <br/>
+:red_circle: Não funciona <br/>
+
+&emsp; :green_circle: Site: https://sparkenergy.netlify.app/ <br/>
+&emsp; :green_circle: API: https://sparkenergy-api.onrender.com<br/>
+&emsp; :green_circle:  Banco de Dados no Microsoft Azure<br/><br/>
+
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma Logo" width="24" height="24" style="vertical-align: middle; margin-right: 10px;"> Figma
 
 -<a href="https://www.figma.com/design/vBXU3GXwaO11UcjoACbnU4/PI---SparkEnergy"> Protópico do Projeto</a><br/><br/>
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
+/Raiz<br>
 |<br>
 |-->documentos<br>
   &emsp;|-->Entrega 1<br>
   &emsp;|-->Entrega 2<br>
   &emsp;|-->Entrega 3<br>
   &emsp;|-->Entrega 4<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->HTML<br>
+  	&emsp;&emsp;|Documentação.docx<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
   &emsp;|-->Frontend<br>
-    &emsp;|-->Html_Css_Js<br>
-    &emsp;|-->React<br>
+	&emsp;&emsp;|-->Html_Css_Js<br>
+    	&emsp;&emsp;|-->React<br>
+|.gitignore<br>
 |readme.md<br>
 <br/>
 
@@ -53,7 +60,7 @@ A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas po
 
 Não há instalação!
 Vá para o link: https://sparkenergy.netlify.app/<br/>
-Edit: Esse link serve apenas para a visualização do FrontEnd, pois os serviços de API e Banco de dados estão inativos.<br/>
+Edit: Esse link serve apenas para a visualização do FrontEnd, pois o serviço Banco de dados estão inativos.<br/>
   - caso queira ver o site funcionando 100%, siga as instruções abaixo
 <br/>
 
@@ -70,65 +77,56 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 ### Projeto em React
 
 Para acessar e continuar com o desenvolvimento no projeto em react, siga o passo a passo:</br><br/>
-1. Baixe o arquivo do repositório (.zip ou .rar) e descompacte-o.
-2. Abra o Visual Studio Code e navegue até a pasta <a href="https://github.com/2024-2-MCC2/Projeto10/tree/main/src">`src`</a>.
-3. Abra um novo terminal e siga os passos abaixo:
-    
-    ```bash
-    cd ../Frontend
-    ```
-    
-    Certifique-se de estar na pasta Frontend e, em seguida, execute:
-    
-    ```bash
-    npm install 
-    ```
+1. Baixe o arquivo do repositório (.zip ou .rar) e descompacte-o.<br/>
+	- Opcional:<br/>
+		   &emsp;&emsp;1.1. Baixe o git na sua máquina <br/>
+		   &emsp;&emsp;1.2. Abra o Terminal em uma pasta adequada<br/>
+		   &emsp;&emsp;1.3. Use `git clone https://github.com/ViniSantos09/SparkEnergy_SiteFullStack.git` 
+3. Abra o Visual Studio Code e o projeto nele.
+4. Abra um novo terminal e siga os passos abaixo:
 
-4. Após a instalação da pasta `node_modules`, navegue para o Backend:
-    
-    ```bash
-    cd Backend
-    ```
-    
-    Na pasta Backend, execute:
-    
-    ```bash
-    npm install
-    ```
+	- FrontEnd:
+	  
+	    ```bash
+	    cd src/Frontend/react
+	    ```       
+	    ```bash
+	    npm install 
+	    ```         
+	    ```bash
+	    npm start
+	    ```
+	    - OBS: pode aparecer avisos no terminal, mas apenas os ignore.
 
-5. Depois da instalação, inicie o servidor:
-    
-    ```bash
-    npm server.js
-    ```
-    
-    A mensagem "Servidor rodando na porta 5000" deverá aparecer.
+4. Crie um outro terminal para rodar o backend:
 
-6. Abra um novo terminal e navegue de volta para o Frontend:
-    
-    ```bash
-    cd Frontend
-    ```
-    
-    Para iniciar a visulização do projeto React, execute:
-    
-    ```bash
-    npm start
-    ```
-Criar a conexão com o banco de dados localmente
+	- BackEnd:
+	    
+	    ```bash
+	    cd src/Backend
+	    ```       
+	    ```bash
+	    npm install
+	    ```    
+	    ```bash
+	    npm run devStart
+	    ```    
+		- OBS: Ainda não vai funcionar pois o banco de dados não foi criado ainda.
+5. Criar a conexão com o banco de dados localmente
 
- 1. Tenha o MySQL baixado na sua máquina, para fazer a conexão use: MySQLWorkbench(recomendado) ou Terminal.
- 2. Vá na sua conexão principal e crie um banco de dados chamado `sparkenergydb`
- 3. vá em `Backend/src/config/config.json`
- 4. Em "development" coloque essas credenciais:
-	- username: root
-	- password: senha do mysql na sua máquina.
-	- database: sparkenergydb
-	- host: localhost
+ 	1. Tenha o MySQL baixado na sua máquina, para fazer a conexão use: MySQLWorkbench(recomendado) ou Terminal.</br>
+ 	2. Vá na sua conexão principal e crie um banco de dados chamado `sparkenergydb`</br>
+ 	3. No VSCode, vá em `Backend/src/config/config.json`</br>
+	4. Em "development" coloque essas credenciais:</br>
+		- username: root</br>
+		- password: senha do mysql na sua máquina.</br>
+		- database: sparkenergydb</br>
+		- host: localhost</br>
 
-5. Veja se no terminal do servidor aparece "Server running on port 3002"
+6. Reinicie o servidor
+7. Veja se no terminal do servidor aparece "Server running on port 3002"
     
-    Assim que o site for aberto no navegador, ele estará pronto para navegação.<br/><br/>
+    Assim que o site for aberto no navegador, ele estará pronto para navegação e acesso ao banco de dados.<br/><br/>
 
 
 ## 📋 Licença/License
