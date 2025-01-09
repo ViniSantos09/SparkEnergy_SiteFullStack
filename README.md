@@ -58,10 +58,8 @@ A solidariedade impulsiona a SparkEnergy, criando um ambiente onde as pessoas po
 
 ## 🛠 Instalação
 
-Não há instalação!
-Vá para o link: https://sparkenergy.netlify.app/<br/>
-Edit: Esse link serve apenas para a visualização do FrontEnd, pois o serviço Banco de dados estão inativos.<br/>
-  - caso queira ver o site funcionando 100%, siga as instruções abaixo
+Não há instalação!<br/>
+<a href="https://sparkenergy.netlify.app/">Link do nosso site</a><br/>
 <br/>
 
 ## 💻 Configuração para Desenvolvimento
